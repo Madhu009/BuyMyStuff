@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BuyMyStuff</string>
+    <string name="type1">Select User type</string>
+    <string-array name="user_arrays">
+        <item>Seller</item>
+        <item>Buyer</item>
+    </string-array>
+</resources>

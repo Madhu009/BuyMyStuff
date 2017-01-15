@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+
+
+    <color name="appEditTextBackgroundFocus">@android:color/white</color>
+    <color name="appEditTextBackgroundNormal">@android:color/white</color>
+    <color name="appEditTextBorderFocus">@color/sbi_textfield_border_focus</color>
+    <color name="appEditTextBorderNormal">@color/sbi_textfield_border</color>
+    <color name="appEditTextForeground">@android:color/black</color>
+
+    <color name="sbi_textfield_border">#ffb7b8ba</color>
+    <color name="sbi_textfield_border_focus">#ff296e9a</color>
+
+</resources>
