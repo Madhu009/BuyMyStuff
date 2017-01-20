@@ -18,7 +18,7 @@ public class Login extends AppCompatActivity {
 
         Spinner spinner =(Spinner)findViewById(R.id.spinner);
 
-
+int i=0;
 
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
