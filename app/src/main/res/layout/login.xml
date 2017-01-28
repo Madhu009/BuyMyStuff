@@ -27,7 +27,7 @@
 <EditText
         android:layout_width="311dp"
         android:layout_height="45dp"
-        android:id="@+id/editText"
+        android:id="@+id/LUserName"
         android:hint="User Name"
         android:focusable="true"
         android:textSize="19dp"
@@ -39,8 +39,8 @@
     android:layout_marginTop="103dp"
     android:layout_alignParentLeft="true"
     android:layout_alignParentStart="true"
-    android:layout_alignRight="@+id/editText2"
-    android:layout_alignEnd="@+id/editText2"
+    android:layout_alignRight="@+id/LPass"
+    android:layout_alignEnd="@+id/LPass"
     />
 
 
@@ -62,10 +62,10 @@
         android:layout_height="45dp"
         android:inputType="textPassword"
         android:ems="100"
-        android:id="@+id/editText2"
+        android:id="@+id/LPass"
         android:textColor="#000000"
         android:hint="Password"
-        android:layout_below="@+id/editText"
+        android:layout_below="@+id/LUserName"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/btLogin"
@@ -79,7 +79,7 @@
         android:text="Login"
         android:id="@+id/btLogin"
         android:layout_marginTop="44dp"
-        android:layout_below="@+id/editText2"
+        android:layout_below="@+id/LPass"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/spinner"
@@ -113,6 +113,7 @@
         android:id="@+id/textView"
         android:layout_alignTop="@+id/progressBar1"
         android:layout_centerHorizontal="true" />
+
 
 
 </RelativeLayout>
